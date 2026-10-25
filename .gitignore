@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# LaTeX build files (keep .tex and .pdf)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Data and run outputs stay outside the repo (CRW_DATA_ROOT, CRW_RESULTS_ROOT)
+/data
+/results
